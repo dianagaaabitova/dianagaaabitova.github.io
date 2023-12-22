@@ -20,8 +20,8 @@ let codeDate = day + month;
 let scoreCount = 0;
 function flipCard() {
     scoreCount++;
-    document.getElementById("score__now").innerHTML = "Steps:" + Math.floor(scoreCount/2);
-    document.getElementById("score__result").innerHTML = "You steps:" + " " + Math.floor(scoreCount/2) + "Steps";
+    document.getElementById("score__now").innerHTML = "Шаги:" + Math.floor(scoreCount/2);
+    document.getElementById("score__result").innerHTML = "Количество шагов:" + " " + Math.floor(scoreCount/2) + " шагов";
 
     if (lockBoard) return;
     if (this === firstCard) return;
